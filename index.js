@@ -10,6 +10,8 @@ var ejsPrefixExpr = /\.ejs$/;
 
 module.exports = function (content, file, conf) {
   conf.filename = file.getId();
+  conf.client = true;
+
   return content.replace(scriptExpr, function (matchStr) {
     var template = arguments[2];
     if (!template) {
