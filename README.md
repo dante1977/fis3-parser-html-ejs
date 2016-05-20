@@ -5,20 +5,20 @@ fis3的parser插件。关于 `ejs` 的使用方法，可以参考其[文档](htt
 * 安装
 
 ```bash
-npm install -g fis3-parser-ejs
+npm install -g fis3-parser-html-ejs
 ```
 
 * 配置
     
 ```bash
-//fis3
+// fis3
 fis.match('**.html', {
     parser: fis.plugin('html-ejs', {
-        //options
+        // options
     })
 })
 
-//dtjs
+// dtjs
 dtjs.match('**.html', {
     parser: 'fis3-parser-html-ejs'
 })
@@ -26,7 +26,7 @@ dtjs.match('**.html', {
     parser: {
         name: 'fis3-parser-html-ejs',
         options: {
-            //options
+            // options
         }
     }
 })
