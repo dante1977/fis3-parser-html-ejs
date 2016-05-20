@@ -1,5 +1,5 @@
 {
-  "name": "fis3-parser-ejs",
+  "name": "fis3-parser-html-ejs",
   "version": "0.0.1",
   "description": "a parser plugin for fis3 to compile html with ejs",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "ejs": "2.4.1"
   },
   "license": "MIT",
-  "_id": "fis3-parser-ejs@0.0.1",
+  "_id": "fis3-parser-html-ejs@0.0.1",
   "maintainers": [
     {
       "name": "zhengqb",
