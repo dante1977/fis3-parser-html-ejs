@@ -1,0 +1,27 @@
+{
+  "name": "fis3-parser-ejs",
+  "version": "0.0.1",
+  "description": "a parser plugin for fis3 to compile html with ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis3",
+    "ejs",
+    "template"
+  ],
+  "dependencies": {
+    "ejs": "2.4.1"
+  },
+  "license": "MIT",
+  "_id": "fis3-parser-ejs@0.0.1",
+  "maintainers": [
+    {
+      "name": "zhengqb",
+      "email": "420104515@qq.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
