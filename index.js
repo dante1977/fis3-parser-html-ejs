@@ -2,7 +2,7 @@
 var ejs = require('ejs');
 var path = require('path');
 //提取<script>
-var scriptExpr = /<!--[\S\s]+?-->|<script([\s\S]+?)>([\s\S]+?)<\/script>/gi;
+var scriptExpr = /<!--[\S\s]*?-->|<script([\s\S]*?)>([\s\S]*?)<\/script>/gi;
 var attrExpr = /\s*([\w-]+)[\s\S]*?=[\s\S]*?"\s*([\s\S]*?)\s*"/g;
 //<%- include('user/show', {user: user}) %> <% include user/show %>
 var includeExpr = /<%-?\s[\s\S]*?include\s*(?:\(\s*('|")(.*?)\1|([\w\/\\-_\.]+))/g;

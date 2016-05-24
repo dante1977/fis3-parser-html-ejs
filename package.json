@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-html-ejs",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "a parser plugin for fis3 to compile html with ejs",
   "main": "index.js",
   "scripts": {
