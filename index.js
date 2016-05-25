@@ -39,6 +39,7 @@ module.exports = function (content, file, conf) {
         if(attrs['data-json']) {
           var realpath = path.resolve(file.dirname, attrs['data-json']);
           data = require(realpath);
+          file.cache.addDeps(realpath);
         }
         return ejs.render(template, data, conf);
       }
